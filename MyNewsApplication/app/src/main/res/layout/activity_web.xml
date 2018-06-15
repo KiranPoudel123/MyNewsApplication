@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="myapp.training.newitventure.com.mynewsapplication.WebActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/rl_relativeLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="450dip"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dip" >
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/latest_updates"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"/>
+
+            <WebView
+                android:id="@+id/webView"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_below="@id/tv_title"
+                android:layout_marginTop="5dip"
+                android:scrollbars="vertical"/>
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btnClose"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:text="@string/close" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

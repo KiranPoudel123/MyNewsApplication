@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="myapp.training.newitventure.com.mynewsapplication.NewsActivity"
+    android:background="#EEEEEEEE"
+    android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textTitle"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+
+             />
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_weight="70"
+            android:contentDescription="@string/viewimage"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/textDescription"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+           />
+
+        <TextView
+            android:id="@+id/textCategory"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            tools:ignore="DuplicateIds"
+             />
+
+        <TextView
+            android:id="@+id/textPublisheddate"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            tools:ignore="DuplicateIds"
+            />
+
+        <Button
+            android:id="@+id/btn_Share"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/share"
+             />
+
+        <Button
+            android:id="@+id/News_Site"
+            android:layout_width="396dp"
+            android:layout_height="wrap_content"
+            android:text="@string/newssite" />
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:text="@string/backtohome" />
+
+
+</LinearLayout>

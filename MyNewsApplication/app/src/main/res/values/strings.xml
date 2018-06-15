@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MyNewsApplication</string>
+
+    <string name="latest_updates">Latest Updates:</string>
+    <string name="back">Back</string>
+    <string name="newssite">NewsSite</string>
+    <string name="press_the_button_to_lunch_the_website">Press the button to lunch the Website:</string>
+    <string name="close">Close</string>
+    <string name="viewimage">ViewImage</string>
+    <string name="backtohome">BackToHome</string>
+    <string name="lunchwebview">LunchWebView</string>
+    <string name="share">Share</string>
+
+    <string name="facebook_app_id">211876819612080</string>
+    <string name="facebook_login_protocol_scheme">fb211876819612080</string>
+
+
+</resources>
